@@ -12,20 +12,21 @@ Quartus II
 	
      	Consider a controller for traffic at the intersection of three main roads.  
 
-      ![image](https://github.com/naavaneetha/Project-Based-Experiment/assets/154305477/e3af03dd-a4de-4b21-af0a-a5a332a3e4b6)
-
- The traffic signal for all the three main roads have equal priority and they remain red by default.
-
-	In state 00,the traffic signals remains red for first five counts and yellow of road1 turns on for the next four counts.
-
-	In state 01, the green of road1 turns on for first five counts and yellow of road1 and road2 turns on for next four4 counts of this state.
-
-	In state 10, the traffic signal of road1 comes back to the red and that of road2 goes to green for tee first five counts.For the next four counts the traffic signal of road2 and road3 remains yellow.
+  ![image](https://github.com/naavaneetha/Project-Based-Experiment/assets/154305477/e3af03dd-a4de-4b21-af0a-a5a332a3e4b6)
 
 
-	In state 11, the traffic signal of road2 comes back to the red and that of road3 goes to green for the first five counts.For the next four counts the traffic signal of road3 turns to yellow
+ The traffic signal for all the three main roads have equal priority and they remain red by default.
 
-	At the end of four states,the traffic signal of all the three roads come back to red.
+ In state 00,the traffic signals remains red for first five counts and yellow of road1 turns on for the next four counts.
+
+ In state 01, the green of road1 turns on for first five counts and yellow of road1 and road2 turns on for next four4 counts of this state.
+ 
+ In state 10, the traffic signal of road1 comes back to the red and that of road2 goes to green for tee first five counts.For the next four counts the traffic signal of road2 and road3 remains yellow.
+
+
+ In state 11, the traffic signal of road2 comes back to the red and that of road3 goes to green for the first five counts.For the next four counts the traffic signal of road3 turns to yellow
+
+ At the end of four states,the traffic signal of all the three roads come back to red.
 
 **Task Assigned**
 
