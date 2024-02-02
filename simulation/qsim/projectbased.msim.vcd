@@ -1,0 +1,335 @@
+$comment
+	File created using the following command:
+		vcd file projectbased.msim.vcd -direction
+$end
+$date
+	Fri Feb 02 15:28:09 2024
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module projectbased_vlg_vec_tst $end
+$var reg 1 ! clk $end
+$var reg 1 " rst $end
+$var wire 1 # G1 $end
+$var wire 1 $ G2 $end
+$var wire 1 % G3 $end
+$var wire 1 & PG $end
+$var wire 1 ' PR $end
+$var wire 1 ( R1 $end
+$var wire 1 ) R2 $end
+$var wire 1 * R3 $end
+$var wire 1 + Y1 $end
+$var wire 1 , Y2 $end
+$var wire 1 - Y3 $end
+$var wire 1 . sampler $end
+$scope module i1 $end
+$var wire 1 / gnd $end
+$var wire 1 0 vcc $end
+$var wire 1 1 unknown $end
+$var tri1 1 2 devclrn $end
+$var tri1 1 3 devpor $end
+$var tri1 1 4 devoe $end
+$var wire 1 5 R1~4_combout $end
+$var wire 1 6 Add0~0_combout $end
+$var wire 1 7 clk~combout $end
+$var wire 1 8 clk~clkctrl_outclk $end
+$var wire 1 9 rst~combout $end
+$var wire 1 : count~4_combout $end
+$var wire 1 ; count~1_combout $end
+$var wire 1 < Equal1~0_combout $end
+$var wire 1 = count[3]~0_combout $end
+$var wire 1 > count~2_combout $end
+$var wire 1 ? count~3_combout $end
+$var wire 1 @ Equal0~0_combout $end
+$var wire 1 A state~9_combout $end
+$var wire 1 B state.01~regout $end
+$var wire 1 C state~10_combout $end
+$var wire 1 D state.10~regout $end
+$var wire 1 E state~11_combout $end
+$var wire 1 F state.11~regout $end
+$var wire 1 G state~8_combout $end
+$var wire 1 H state.00~regout $end
+$var wire 1 I R1~2_combout $end
+$var wire 1 J R1~3_combout $end
+$var wire 1 K R1~reg0_regout $end
+$var wire 1 L R2~0_combout $end
+$var wire 1 M R2~1_combout $end
+$var wire 1 N R2~reg0_regout $end
+$var wire 1 O R3~0_combout $end
+$var wire 1 P R3~1_combout $end
+$var wire 1 Q R3~reg0_regout $end
+$var wire 1 R Selector0~1_combout $end
+$var wire 1 S Selector0~0_combout $end
+$var wire 1 T Selector0~2_combout $end
+$var wire 1 U G1~reg0_regout $end
+$var wire 1 V Selector9~0_combout $end
+$var wire 1 W Selector9~1_combout $end
+$var wire 1 X G2~reg0_regout $end
+$var wire 1 Y Selector12~0_combout $end
+$var wire 1 Z Selector12~1_combout $end
+$var wire 1 [ G3~reg0_regout $end
+$var wire 1 \ Selector2~0_combout $end
+$var wire 1 ] Selector2~1_combout $end
+$var wire 1 ^ Y1~reg0_regout $end
+$var wire 1 _ Selector8~0_combout $end
+$var wire 1 ` Selector8~1_combout $end
+$var wire 1 a Y2~reg0_regout $end
+$var wire 1 b Selector11~0_combout $end
+$var wire 1 c Y3~reg0_regout $end
+$var wire 1 d always1~0_combout $end
+$var wire 1 e count [3] $end
+$var wire 1 f count [2] $end
+$var wire 1 g count [1] $end
+$var wire 1 h count [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+1&
+0'
+0(
+0)
+0*
+0+
+0,
+0-
+x.
+0/
+10
+x1
+12
+13
+14
+05
+06
+07
+08
+09
+0:
+0;
+1<
+1=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+1J
+0K
+0L
+1M
+0N
+0O
+1P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+0[
+0\
+0]
+0^
+0_
+0`
+0a
+0b
+0c
+0d
+0h
+0g
+0f
+0e
+$end
+#10000
+1!
+17
+18
+0.
+1Q
+1N
+1K
+1O
+1L
+1I
+1*
+1)
+1(
+#20000
+1"
+0!
+19
+07
+08
+1.
+1G
+1A
+0=
+1:
+#30000
+1!
+17
+18
+0.
+1h
+1?
+0:
+#40000
+0!
+07
+08
+1.
+#50000
+1!
+17
+18
+0.
+1g
+0h
+1:
+#60000
+0!
+07
+08
+1.
+#70000
+1!
+17
+18
+0.
+1h
+0?
+1>
+0:
+#80000
+0!
+07
+08
+1.
+#90000
+1!
+17
+18
+0.
+0g
+1f
+0h
+1:
+#100000
+0!
+07
+08
+1.
+#110000
+1!
+17
+18
+0.
+1h
+1@
+1?
+0:
+1\
+0J
+1]
+#120000
+0!
+07
+08
+1.
+#130000
+1!
+17
+18
+0.
+1^
+0K
+1g
+0h
+0]
+0\
+0I
+0@
+1:
+1+
+0(
+1]
+#140000
+0!
+07
+08
+1.
+#150000
+1!
+17
+18
+0.
+1h
+0?
+0>
+0:
+16
+1;
+#160000
+0!
+07
+08
+1.
+#170000
+1!
+17
+18
+0.
+0g
+0f
+1e
+0h
+1:
+#180000
+0!
+07
+08
+1.
+#190000
+0"
+1!
+09
+17
+18
+0.
+1J
+0G
+0A
+1=
+0;
+0:
+0^
+1h
+0]
+0<
+0+
+1S
+1T
+#200000

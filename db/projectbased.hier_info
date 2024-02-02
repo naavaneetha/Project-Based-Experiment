@@ -1,0 +1,45 @@
+|projectbased
+R1 <= R1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+R2 <= R2~reg0.DB_MAX_OUTPUT_PORT_TYPE
+R3 <= R3~reg0.DB_MAX_OUTPUT_PORT_TYPE
+G1 <= G1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+G2 <= G2~reg0.DB_MAX_OUTPUT_PORT_TYPE
+G3 <= G3~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y1 <= Y1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y2 <= Y2~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y3 <= Y3~reg0.DB_MAX_OUTPUT_PORT_TYPE
+PR <= always1.DB_MAX_OUTPUT_PORT_TYPE
+PG <= always1.DB_MAX_OUTPUT_PORT_TYPE
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+clk => Y3~reg0.CLK
+clk => G3~reg0.CLK
+clk => R3~reg0.CLK
+clk => Y2~reg0.CLK
+clk => G2~reg0.CLK
+clk => R2~reg0.CLK
+clk => Y1~reg0.CLK
+clk => G1~reg0.CLK
+clk => R1~reg0.CLK
+clk => state~1.DATAIN
+rst => R1.OUTPUTSELECT
+rst => G1.OUTPUTSELECT
+rst => Y1.OUTPUTSELECT
+rst => R2.OUTPUTSELECT
+rst => G2.OUTPUTSELECT
+rst => Y2.OUTPUTSELECT
+rst => R3.OUTPUTSELECT
+rst => G3.OUTPUTSELECT
+rst => Y3.OUTPUTSELECT
+rst => state.OUTPUTSELECT
+rst => state.OUTPUTSELECT
+rst => state.OUTPUTSELECT
+rst => state.OUTPUTSELECT
+rst => count.OUTPUTSELECT
+rst => count.OUTPUTSELECT
+rst => count.OUTPUTSELECT
+rst => count.OUTPUTSELECT
+
+
